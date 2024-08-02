@@ -5,22 +5,28 @@ html {
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: antiquewhite;
 }
 
 h1 {
-    color: #333;
+    color: #070707;
 }
 
 #guessField {
     width: 50px;
+    border-radius: 5px;
 }
 
 #guessSubmit {
     padding: 5px 10px;
-    background-color: #333;
+    background-color: #5b48ca;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+}
+#guessSubmit:hover{
+    background-color: #c93f09;
 }
 
 .message {
@@ -29,3 +35,12 @@ h1 {
     color: #333;
 }
 
+.container{
+    max-width: 500px;
+    background-image: linear-gradient(rgb(108, 199, 241), rgb(255, 187, 0));
+    border-radius: 10px;
+    padding:1em;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
